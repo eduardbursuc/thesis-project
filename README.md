@@ -58,10 +58,10 @@ Two encoding strategies were explored and compared with their clear-text counter
 
 ## 🧪 Dataset Info
 
-The dataset used in these experiments originally stems from this research paper: https://www.researchgate.net/publication/377343024_DEPHIDES_Deep_Learning_Based_Phishing_Detection_System
-The researchers created and evaluated a large dataset of roughly 5.2M samples to test different DL Models for phishing detection. As part of their project, they also provided both the large dataset but also a subset containing 10% (about 520k) of the samples as open source. I used this subset in my experiments.
+- The dataset used in these experiments originally stems from this research paper: https://www.researchgate.net/publication/377343024_DEPHIDES_Deep_Learning_Based_Phishing_Detection_System
+- The researchers created and evaluated a large dataset of roughly 5.2M samples to test different DL Models for phishing detection. As part of their project, they also provided both the large dataset but also a subset containing 10% (about 520k) of the samples as open source. I used this subset in my experiments.
 
-The original dataset is open-source and can be downloaded here:  
+- The original dataset is open-source and can be downloaded here:  
 🔗 https://github.com/ebubekirbbr/dephides
 
 ---
@@ -91,7 +91,7 @@ pip install -r requirements.txt
 
 This repository was created as part of my Bachelor thesis research.
 
-📄 You can find the full thesis in [`/files/thesis.pdf`].
+📄 You can find the full thesis in [`/files/Bachelor_Thesis_Eduard_Bursuc-Pahome_FinalVersion.pdf`].
 
 If referencing, feel free to cite it:
 
