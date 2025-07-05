@@ -50,11 +50,11 @@ Two encoding strategies were explored and compared with their clear-text counter
 
 ## 🧪 Dataset Info
 
-Only **3 base CSV files** are included in this repository for clarity and size.  
-These are enough to reproduce all experiments and generate the full datasets via preprocessing notebooks.
+The dataset used in these experiments stems from a research paper from Jan. 2024 (Link: https://www.researchgate.net/publication/377343024_DEPHIDES_Deep_Learning_Based_Phishing_Detection_System).
+The researchers used a huge dataset of over 5.8M samples to test different DL classifiers. They provided the huge dataset as open-source, but also created a subset of 10% (roughly 500k samples) which I used in my experiments.
 
 The original dataset is open-source and can be downloaded here:  
-🔗 [**Insert dataset link here**]
+🔗 (https://github.com/ebubekirbbr/dephides)
 
 ---
 
