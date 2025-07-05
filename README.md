@@ -19,7 +19,7 @@ Two encoding strategies were explored and compared with their clear-text counter
   - Map those positions in the Bloom filter to `1`.
 - Feed the resulting bit array into a deep learning model.
 
-**Goal**: Evaluate if encoding URLs this way retains enough signal for accurate classification.
+**Goal**: Evaluate if encoding URLs this way retains enough information for accurate classification.
 
 ---
 
@@ -30,7 +30,7 @@ Two encoding strategies were explored and compared with their clear-text counter
 - Apply Bloom encoding on these keyed feature values.
 - Feed resulting bit arrays into a deep learning model.
 
-**Goal**: See how encoded structured features perform compared to clear feature vectors.
+**Goal**: See how encoded structured features perform compared to clear feature vectors and the Q-Gram Approach. 
 
 ---
 
