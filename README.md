@@ -61,7 +61,7 @@ Two encoding strategies were explored and compared with their clear-text counter
 - The dataset used in these experiments originally stems from [this](https://www.researchgate.net/publication/377343024_DEPHIDES_Deep_Learning_Based_Phishing_Detection_System) research paper.
 - The researchers created and evaluated a large dataset of roughly 5.2M samples to test different DL Models for phishing detection. As part of their project, they also provided both the large dataset but also a subset containing 10% (about 520k) of the samples as open source. I used this subset in my experiments.
 
-- The original dataset is open-source and can be downloaded [here](https://github.com/ebubekirbbr/dephides)
+- The original dataset is open-source and can be downloaded [here](https://github.com/ebubekirbbr/dephides).
 
 ---
 
