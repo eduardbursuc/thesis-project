@@ -2,7 +2,15 @@
 
 This repository contains all Jupyter notebooks used for experiments in my Bachelor thesis.
 
-The project combines **deep learning** with **privacy-preserving techniques** to create an efficient phishing URL detection system. It specifically focuses on **Bloom encoding** — a novel method in this context — to anonymize sensitive URL data. The core goal is to **compare the detection performance between clear-text and encoded inputs** using deep learning models.
+The project combines **deep learning** with **privacy-preserving techniques** to create an efficient phishing URL detection system. It specifically focuses on **Bloom encoding** — a novel method in this context — to anonymize sensitive URL data. The core goal is to **compare the detection performance between clear-text and encoded inputs** using deep learning models (CNN in this case).
+
+---
+
+## 🧠 Motivation
+
+Phishing detection often requires analyzing sensitive web data. This project explores whether **privacy-enhancing encodings** — specifically Bloom filters — can preserve enough semantic value to support **deep learning-based classification**, without exposing original URLs.
+
+This approach may offer practical applications in privacy-sensitive environments like healthcare, finance, and cybersecurity, where data masking is essential.
 
 ---
 
@@ -50,11 +58,11 @@ Two encoding strategies were explored and compared with their clear-text counter
 
 ## 🧪 Dataset Info
 
-Only **3 base CSV files** are included in this repository for clarity and size.  
-These are enough to reproduce all experiments and generate the full datasets via preprocessing notebooks.
+The dataset used in these experiments originally stems from this research paper: https://www.researchgate.net/publication/377343024_DEPHIDES_Deep_Learning_Based_Phishing_Detection_System
+The researchers created and evaluated a large dataset of roughly 5.2M samples to test different DL Models for phishing detection. As part of their project, they also provided both the large dataset but also a subset containing 10% (about 520k) of the samples as open source. I used this subset in my experiments.
 
 The original dataset is open-source and can be downloaded here:  
-🔗 [**Insert dataset link here**]
+🔗 https://github.com/ebubekirbbr/dephides
 
 ---
 
@@ -83,12 +91,12 @@ pip install -r requirements.txt
 
 This repository was created as part of my Bachelor thesis research.
 
-📄 You can find the full thesis in [`/docs/thesis.pdf`](docs/thesis.pdf) *(once added)*.
+📄 You can find the full thesis in [`/files/thesis.pdf`].
 
 If referencing, feel free to cite it:
 
 ```
-[Your Name], *Phishing URL Detection with Bloom Encoding*, [University Name], [Year].
+Eduard Bursuc-Pahome, *An Evaluation of Similarity-Preserving Bloom Encodings in URL-based Phishing Detection*, RWTH Aachen, 2024.
 ```
 
 ---
@@ -107,16 +115,8 @@ If referencing, feel free to cite it:
 
 Feel free to reach out for questions or collaboration:
 
-📧 your.email@example.com  
-🔗 [LinkedIn](#) • [GitHub](#)
-
----
-
-## 🧠 Motivation
-
-Phishing detection often requires analyzing sensitive web data. This project explores whether **privacy-enhancing encodings** — specifically Bloom filters — can preserve enough semantic value to support **deep learning-based classification**, without exposing original URLs.
-
-This approach may offer practical applications in privacy-sensitive environments like healthcare, finance, and cybersecurity, where data masking is essential.
+📧 eduard.bursuc2001@gmail.com  
+🔗 [LinkedIn]((https://www.linkedin.com/in/eduard-bursuc-pahome-620682350/)) • [GitHub]([#](https://github.com/eduardbursuc))
 
 ---
 
