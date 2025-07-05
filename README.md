@@ -116,7 +116,8 @@ Eduard Bursuc-Pahome, *An Evaluation of Similarity-Preserving Bloom Encodings in
 Feel free to reach out for questions or collaboration:
 
 📧 eduard.bursuc2001@gmail.com  
-🔗 [LinkedIn]([#](https://www.linkedin.com/in/eduard-bursuc-pahome-620682350/)) • [GitHub]([#](https://github.com/eduardbursuc))
+🔗 [LinkedIn](https://www.linkedin.com/in/eduard-bursuc-pahome-620682350/) • [GitHub](https://github.com/eduardbursuc)
+
 
 ---
 
