@@ -64,3 +64,26 @@ Install all dependencies via:
 
 ```bash
 pip install -r requirements.txt
+
+### Key Libraries Used
+
+| Library | Purpose |
+|--------|---------|
+| `pandas`, `numpy`, `scipy` | Data processing and feature engineering |
+| `matplotlib`, `seaborn` | Plotting and visualization |
+| `sklearn` | Preprocessing, train/test splits |
+| `tensorflow` | Deep learning models |
+| `nltk`, `bitarray` | Bloom encoding (q-grams, bit manipulation) |
+| Python standard libs | (`re`, `math`, `time`, `hmac`, `hashlib`, `urllib`, `ipaddress`) |
+
+---
+
+## 📄 Bachelor Thesis
+
+This repository was created as part of my Bachelor thesis research.
+
+📄 You can find the full thesis in [`/docs/thesis.pdf`](docs/thesis.pdf) *(once added)*.
+
+If referencing, feel free to cite it:
+
+
